@@ -1,0 +1,110 @@
+*{
+    font-family: Merriweather;
+}
+body{
+    background-color: #ded4ba;
+}
+nav.navbar-header{
+    width: 100vw;
+}
+img.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 80%;
+}
+img.college-logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 80%;
+    /* object-position: right top; */
+    margin-left: 0;
+}
+a.navbar-college{
+    color: #b7aa70;
+    padding-right: 2px;
+    font-weight: bold;
+}
+nav.navbar-default{
+    border: solid black;
+    /* background-color:#333333; */
+    background-color:black;
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+a.navbar-brand{
+    color: #b7aa70;
+    padding-left: 2px;
+    font-weight: bold;
+    object-position: right top;
+}
+a.navbar-brand:hover{
+    color:#cdc098;
+}
+div.nav-option{
+    color: white;
+    padding-left: 20px;
+}
+div.nav-option a{
+    padding-right: 10px;
+    padding-top: 2px;
+    color: white;
+}
+/* a.navbar-college{
+    color: white;
+    text-decoration: none;
+} */
+div.flex{
+    /* padding: 50px; */
+    /* border: solid black; */
+    
+}
+p.about{
+    padding-top: 40px;
+    padding-bottom:50px;
+}
+section.about{
+    height: 100vh;
+}
+.about{
+    /* background-image: url(./image/3.jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.about center.ngo{
+    font-weight: bolder;
+}
+section.navbar-section{
+    width: 100vw;
+}
+section.about p{
+    text-align: center;
+    /* line-height: 100px; */
+    padding: 100px;
+    padding-top: 150px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: #9b1b2a;
+    font-family: cursive;
+}
+section.events center{
+    color: #9b1b2a;
+}
+div.card-deck img{
+    height: 200px;
+    /* width: 100px; */
+}
+section.events{
+    padding-top: 50px;
+}
+section.footers{
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+footer.socialmedia{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+}
+footer.socialmedia i{
+    padding-left: 10px;
+}
